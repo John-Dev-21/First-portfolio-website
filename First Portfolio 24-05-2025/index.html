@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- <div class="logo">LOGO</div> -->
+            <div class="logo-box">
+
+                <a href="http://"><img class="logo" src="logo.png" alt="" height="150px"></a>
+                <span class="name">FAHEEM JOHN</span>
+
+            </div>
+
+            <ul class="links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about ">About</a></li>
+                <li><a href="#services-sec">Services</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="#cntct-sec">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+
+        <div class="hero">
+            <p class="intro">
+                Hi, <br> I'am <span class="Faheem">Faheem</span> <br> Software Engineer
+            </p>
+
+            <button class="about-btn"
+                onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">About me</button>
+        </div>
+
+        <div class="pic-cont">
+            <img class="pic" src="my-pic.png" alt="picture" height="410px">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="about-img.jpg" alt="about image">
+        </div>
+
+        <div class="about-cont">
+            <h2 class="about-heading">About Me</h2>
+            <p class="about-text">
+                A passionate <span class="style-texts">Web</span> and <span class="style-texts">Android</span>
+                Developer. <br>
+                I build Modern, Responsive websites and Android apps <br> with focus
+                on performance and clean UI. <br>
+                I specialize in <span class="style-texts">HTML</span>, <span class="style-texts">CSS</span>, <span
+                    class="style-texts">Javascript</span>, and <span class="style-texts">Java</span> for Android. <br>
+                Learning everyday to become a <span class="style-texts last-word-about">full-stack dev!</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-sec" id="services-sec">
+
+        <div class="services-cont">
+
+            <h2 class="serv-heading">Services Providing</h2>
+
+            <div class="showcase-box">
+                <div class="show-cont">
+
+                    <!-- Web Designing container -->
+                   <h2>Web Designing</h2>
+                    <img height="90vh" width="90vw" src="web-design-icon.png" alt="Web design icon">
+                    <span style="padding: 5px 10px;">Creating visually appealing, user-friendly website layouts and interfaces that reflect brand identity and ensure seamless user experience.</span>
+                    
+                </div>
+
+                <!-- App development container -->
+                <div class="show-cont">
+                   <h2>App Development</h2>
+                    <img height="90vh" width="90vw" src="app-dev-icon.jpg" alt="Web design icon">
+                    <span style="padding: 5px 10px;">Building responsive, fast, and functional mobile applications for Android using Java or Flutter, tailored to user needs and goals</span>
+                    
+                </div>
+
+
+                <!-- Machine Learning container -->
+                <div class="show-cont">
+                   <h2>Machine Learning</h2>
+                    <img height="90vh" width="90vw" src="ML-icon.png" alt="Web design icon">
+                    <span style="padding: 5px 10px;">Designing smart algorithms that learn from data to make predictions, automate tasks, and enhance decision-making in digital systems.</span>
+                    </div>
+
+                    <!-- Bug Fixing container -->
+                <div class="show-cont">
+                   <h2>Bug Fixing</h2>
+                    <img height="90vh" width="90vw" src="bug-fix-icon.png" alt="Web design icon">
+                    <span style="padding: 5px 10px;">Identifying, analyzing, and resolving issues or errors in code to improve performance, functionality, and stability of software systems.</span>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+     <section class="cntct-sec" id="cntct-sec">
+
+       <h2 class="cntct-heading">Contact Me</h2> 
+
+        <form action="javacript.js" class="form-grid">
+       <div class="form-wrapper">    
+            <div>
+            <label for="fname">First Name <span class="Starick">*</span></label>
+            <input type="text" name="fname" id="fname" placeholder="John">
+        </div>
+
+        <div>
+    <label for="lname">Last Name <span class="Starick">*</span></label>
+    <input type="text" id="lname" name="lname" placeholder="Doe">
+  </div>
+        <div>
+    <label for="email">Email <span class="Starick">*</span></label>
+    <input type="text" id="email" name="email" placeholder="johndoe@email.com">
+  </div>
+</div> 
+
+  <div class="secnd-form-wrapper">
+    <label for="message">Message <span class="Starick">*</span></label>
+    <textarea name="message" id="message" cols="40" rows="8" placeholder="Write messsage here..." style="resize: none;"></textarea>
+  
+  <button type="submit" class="btn-submit"> Submit </button>
+</div>
+        </form>
+     </section>
+
+     <footer class="footer">
+<div class="footer-text">
+        <p >Come for visit</p>
+        <p class="address"> Street no.7, Abshar Colony Warsak Road, Peshawar, Pakistan 25000.</p>
+     </div>
+     <div class="footer-links">
+        <p>AROUND THE WEB</p>
+        <div class="links">
+            <a href="https://github.com/John-Dev-21" target="_blank" rel="noopener noreferrer"><img src="github-logo.png" alt="github-logo" height="50px"></a>
+
+            <a href="https://www.facebook.com/faheem.john21" target="_blank" rel="noopener noreferrer"><img src="fb-logo.png" alt="facebook-logo"></a>
+
+            <a href="https://www.instagram.com/faheem.john21/" target="_blank" rel="noopener noreferrer"><img src="insta-logo.png" alt="instagram-logo"></a>
+             
+            <a href="https://www.linkedin.com/in/faheem-john-210499178/" target="_blank" rel="noopener noreferrer"><img src="linkedin-logo.png" alt="linkedin-logo"></a>
+            
+        </div>
+        
+     </footer>
+     
+     
+</body>
+
+</html>
